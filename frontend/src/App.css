@@ -1,0 +1,169 @@
+.grid{
+    display: grid;
+    column-gap: 2rem;
+    row-gap:50px;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top:1rem;
+    position: relative;
+    bottom: 20rem;
+    margin-left: 2rem;
+    
+
+}
+
+.heading{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+height:5rem;
+position: relative;
+right: 26rem;
+z-index:1;
+
+}
+
+.sector{
+    position: relative;
+    bottom: 20rem;
+    background-color: #0075BE ;
+    height:40rem;
+width:100%;   
+ margin-right: 0;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.logo{
+    width:40rem;
+    height:40rem;
+    z-index: 9999;
+    left:75rem;
+    top:1rem ;
+    transform: rotate(3deg)
+}
+
+.searchbar{
+height: 4rem;
+border-radius: 3rem;
+padding: 1px;
+outline: none;
+border:none;
+text-align: left;
+padding-left: 2rem;
+width:30rem;
+margin-left:14rem; 
+}
+.searchbtn{
+    position: relative;
+    width:4rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border:none;
+    text-align: center; 
+    border-top-left-radius: 0;  
+    border-bottom-left-radius: 0;  
+    right:4rem;
+    top:0.7rem
+
+}
+
+.searchbtn:hover{
+    opacity: 0.5;
+}
+
+.searchr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border:1px black;
+    box-shadow: 1px black;
+    margin-bottom: 3rem;
+
+}
+
+.buttons{
+    background-color: #0075BE ;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding: 0;
+    margin:0  
+}
+
+.signup{
+    margin: 1rem;
+    border-radius: 4px;
+    height:2rem;
+    width:5rem;
+    border:transparent;
+    background-color: #FFCC00;
+}
+
+.indicator{
+    margin: 1rem;
+    border-radius: 4px;
+    height:2rem;
+    width:6rem;
+}
+
+.login{
+    margin: 1rem;
+    border-radius: 4px;
+    height:2rem;
+    width:5rem;
+    border:transparent;
+    background-color: #f66314;
+}
+
+.login:hover{
+    opacity: 0.8;
+}
+
+.signup:hover{
+    opacity: 0.8;
+}
+
+.searchbtn:hover{
+filter: brightness(80%)
+}
+
+.mainCont h1{
+    color:#FFCC00;
+    text-align: center;
+    margin-top:20rem;
+    margin-bottom: 1rem;
+    
+}
+
+.mainCont h3{
+   
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.mainCont h6{
+
+    text-align: center;
+    
+} 
+
+.mainCont {
+    margin: 0;
+    padding: 0;
+    width:100%
+}

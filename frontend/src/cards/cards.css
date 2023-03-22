@@ -1,0 +1,135 @@
+
+
+
+
+#tilt{
+    margin:0 !important;
+    padding: 0 !important;
+    position: absolute!important;
+    bottom:9rem!important;
+    left: 1.6rem!important;
+    height:240px!important;
+    width:160px!important;
+    background: none!important;
+    background-Color: "#000";
+
+
+}
+
+
+img{
+    height:240px;
+    width:160px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    bottom:0rem;
+    left:0rem;
+}
+
+
+
+.card_wrapper{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.prices{
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(100px);
+    text-align: left;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.card_wrapper .card{
+    position: relative;
+    width:210px;
+    height:400px;
+    margin:0px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    align-items: flex-end;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)) 
+       
+    
+    
+    
+}
+
+.card_wrapper .card .card_contend{
+
+    padding:2rem;
+    text-align: center;
+    margin-top: 0;
+   
+    
+}
+
+html{
+    display:contents;
+}
+
+body{
+    margin:0;
+}
+
+
+
+
+
+
+
+.card_wrapper .card .card_contend  {
+    color:black;
+    font-size:  0.9rem;
+
+   
+
+
+}
+.card_title{
+    font-size:0.8rem
+}
+
+.card_title2{
+    font-size: 0.7rem
+}
+
+
+
+.card_wrapper .card .card_contend p {
+    color:white;
+
+
+}
+
+.card_wrapper .card .card_contend .card_price{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:0rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content:center;
+}
